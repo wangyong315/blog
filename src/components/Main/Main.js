@@ -1,13 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import TodoHeaderContainer from '../../containers/TodoHeaderContainer';
 import TodoListContainer from '../../containers/TodoListContainer';
 
-const Main = () => (
+function Main(params) {
+  return (
     <div>
-        <TodoHeaderContainers />
-        <TodoListContainer />
+      jjkjkljkl
+      {/* <TodoHeaderContainers />
+        <TodoListContainer /> */}
     </div>
-);
+  );
+}
 
 export default Main;

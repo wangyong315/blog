@@ -2,6 +2,7 @@
   "presets": [
     "es2015",
     "react",
+    ['@babel/preset-react', {targets: {node: 'current'}}] // add this
   ],
   "plugins": []
 }
